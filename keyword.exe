@@ -1,0 +1,177 @@
+Here are the 35 keywords in Python:
+
+1. and
+2. as
+3. assert
+4. async
+5. await
+6. break
+7. class
+8. continue
+9. def
+10. del
+11. elif
+12. else
+13. except
+14. finally
+15. for
+16. from
+17. global
+18. if
+19. import
+20. in
+21. is
+22. lambda
+23. nonlocal
+24. not
+25. or
+26. pass
+27. raise
+28. return
+29. try
+30. while
+31. with
+32. yield
+33. True
+34. False
+35. None
+----------------------------------------------------------------------------------
+
+#1. and
+Used to combine two conditions.
+Example: if x > 5 and y < 10: print("Hello")
+
+#2. as
+Used to assign an alias to a module or function.
+Example: import math as m; print(m.pi)
+
+#3. assert
+Used to check if a condition is true, and raise an AssertionError if it's not.
+Example: assert x > 5, "x is not greater than 5"
+
+#4. async
+Used to define an asynchronous function.
+Example: async def my_function(): pass
+
+#5. await
+Used to suspend the execution of an asynchronous function until a result is available.
+Example: await my_async_function()
+
+#6. break
+Used to exit a loop prematurely.
+Example: for i in range(10): if i == 5: break; print(i)
+
+#7. class
+Used to define a class.
+Example: class Person: def __init__(self, name, age): self.name = name; self.age = age
+
+#8. continue
+Used to skip to the next iteration of a loop.
+Example: for i in range(10): if i == 5: continue; print(i)
+
+#9. def
+Used to define a function.
+Example: def greet(name): print("Hello, " + name + "!")
+
+#10. del
+Used to delete a variable, item from a list, or key-value pair from a dictionary.
+Example: x = 5; del x
+
+#11. elif
+Used to check another condition if the initial condition is false.
+Example: if x > 5: print("Hello"); elif x == 5: print("World")
+
+#12. else
+Used to execute a block of code if all conditions are false.
+Example: if x > 5: print("Hello"); else: print("World")
+
+#13. except
+Used to define a block of code to execute if an exception is raised.
+Example: try: x = 5 / 0; except ZeroDivisionError: print("Cannot divide by zero!")
+
+#14. finally
+Used to define a block of code to execute regardless of whether an exception was raised.
+Example: try: x = 5 / 0; except ZeroDivisionError: print("Cannot divide by zero!"); finally: print("Cleanup code")
+
+#15. for
+Used to iterate over a sequence.
+Example: for i in range(10): print(i)
+
+#16. from
+Used to import a specific function or variable from a module.
+Example: from math import pi; print(pi)
+
+#17. global
+Used to declare a variable as global, meaning it can be accessed and modified from anywhere in the program.
+Example: x = 5; def my_function(): global x; x = 10
+
+#18. if
+Used to execute a block of code if a condition is true.
+Example: if x > 5: print("Hello")
+
+#19. import
+Used to import a module or package.
+Example: import math; print(math.pi)
+
+#20. in
+Used to check if a value is present in a sequence.
+Example: if 5 in [1, 2, 3, 4, 5]: print("5 is in the list")
+
+#21. is
+Used to check if two variables are the same object.
+Example: x = 5; y = 5; if x is y: print("x and y are the same object")
+
+#22. lambda
+Used to define a small anonymous function.
+Example: add = lambda x, y: x + y; print(add(5, 3))
+
+#23. nonlocal
+Used to declare a variable as nonlocal, meaning it can be accessed and modified from the surrounding scope.
+Example: def outer(): x = 5; def inner(): nonlocal x; x = 10; inner(); print(x)
+
+#24. not
+Used to negate a condition.
+Example: if not x > 5: print("Hello")
+
+#25. or
+Used to combine two conditions.
+Example: if x > 5 or y < 10: print("Hello")
+
+#26. pass
+Used as a placeholder when a statement is required syntactically, but no execution of code is necessary.
+Example: if x > 5: pass
+
+#27. raise
+Used to raise an exception.
+Example: def divide(x, y): if y == 0: raise ZeroDivisionError("Cannot divide by zero!"); return x / y
+
+#28. return
+Used to exit a function and return a value.
+Example: `def add(x, y): return x
+#29. try
+Used to define a block of code that may raise an exception.
+Example: try: x = 5 / 0; except ZeroDivisionError: print("Cannot divide by zero!")
+
+#30. while
+Used to repeat a block of code while a condition is true.
+Example: i = 0; while i < 10: print(i); i += 1
+
+#31. with
+Used to define a runtime context to be used by a group of statements.
+Example: with open("file.txt", "r") as f: print(f.read())
+
+#32. yield
+Used to define a generator function.
+Example: def infinite_sequence(): num = 0; while True: yield num; num += 1
+
+#33. True
+Used to represent a Boolean true value.
+Example: x = True; if x: print("Hello")
+
+#34. False
+Used to represent a Boolean false value.
+Example: x = False; if x: print("Hello")
+
+#35. None
+Used to represent a null or undefined value.
+Example: x = None; if x is None: print("x is None")
